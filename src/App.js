@@ -23,7 +23,7 @@ function App() {
     <div className="App">
       <div className="appHeader">
         <h1>COVID-19 NUMBERS</h1>
-        <Header />      
+        <Header />
       </div>
       <div className="appContent">
         <main>
@@ -31,10 +31,11 @@ function App() {
           <Route path = "/globalSummary" exact component = {GlobalSummary} />
           <Route path = "/usSummary" exact component = {USSummary} />
         </main>
-        
+
       </div>
     </div>
   );
 }
 
+const jenkins = "http://localhost:9999";
 export default App;
