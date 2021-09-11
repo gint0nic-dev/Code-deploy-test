@@ -37,5 +37,4 @@ function App() {
   );
 }
 
-const jenkins = "http://localhost:9999";
 export default App;
